@@ -80,7 +80,8 @@ nav {
 	display: flex;
 	padding: 50px 200px;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
 }
 
 .hero-image {
