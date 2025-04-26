@@ -40,7 +40,7 @@ body {
 	line-height: 1.55;
 }
 
-h1, h2, p, figure{
+h1, h2, h3, p, figure, blockquote{
 	margin: 0;
 	padding: 0;
 }
@@ -55,7 +55,7 @@ ul {
 	padding: 0;
 	display: flex;
 	gap: 10px;
-	font-size: 18px;
+	font-size: 20px;
 	color: hsl(220, 13%, 91%);
 }
 
@@ -65,6 +65,16 @@ nav {
 	align-items: center;
 	padding: 5px 200px;
 	background-color: hsl(291, 35%, 15%);
+}
+
+footer {
+	display: flex;
+	background-color: hsl(291, 35%, 15%);
+	color: hsl(220, 13%, 91%);
+	justify-content: center;
+	align-items: center;
+	padding: 10px 200px;
+	font-size: 18px;
 }
 
 .logo {
@@ -108,7 +118,7 @@ nav {
 	color: hsl(90, 17%, 98%);
 	background-color: hsl(271, 45%, 39%);
 	font-size: 26px;
-	border-radius: 11px;
+	border-radius: 10px;
 	padding: 8px 16px;
 	margin-top: 5px;
 }
@@ -160,3 +170,47 @@ nav {
 figcaption {
 	font-size: 20px;
 }
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	padding: 50px 400px;
+	background-color: hsl(220, 13%, 91%);
+	color: hsl(291, 35%, 15%);
+	align-items: center;
+	font-size: 36px;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.quote > p {
+	font-size: 24px;
+	font-weight: 900;
+	font-style: normal;
+	align-self: flex-end;
+}
+
+.call-to-action {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px 250px;
+	padding: 50px 150px;
+	background-color: hsl(271, 45%, 39%);
+	border-radius: 10px;
+}
+
+.cta-info {
+	color: hsl(90, 17%, 98%);
+}
+
+.cta-botao {
+	display: flex;
+	border: solid hsl(90, 17%, 98%);
+	color: hsl(90, 17%, 98%);
+	font-size: 20px;
+	padding: 8px 16px;
+	border-radius: 10px;
+}
+
+
