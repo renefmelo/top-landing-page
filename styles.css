@@ -55,7 +55,7 @@ ul {
 	padding: 0;
 	display: flex;
 	gap: 10px;
-	font-size: 20px;
+	font-size: 18px;
 	color: hsl(220, 13%, 91%);
 }
 
@@ -74,7 +74,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	padding: 10px 200px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .logo {
@@ -92,6 +92,7 @@ footer {
 	align-items: center;
 	flex-wrap: wrap-reverse;
 	justify-content: center;
+	gap: 5px;
 }
 
 .hero-image {
@@ -99,8 +100,8 @@ footer {
 }
 
 .hero-image > img {
-	width: 775px;
-	height: 635px;
+	width: 555px;
+	height: 490px;
 }
 
 .hero-main-text {
@@ -110,24 +111,23 @@ footer {
 }
 
 .hero-secondary-text {
-	font-size: 24px;
+	font-size: 18px;
 	color: hsl(220, 13%, 91%);
 }
 
 .hero-botao {
 	color: hsl(90, 17%, 98%);
 	background-color: hsl(271, 45%, 39%);
-	font-size: 26px;
+	font-size: 20px;
 	border-radius: 10px;
-	padding: 8px 16px;
-	margin-top: 5px;
+	padding: 6px 12px;
 }
 
 .hero-text {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 730px;
+	width: 560px;
 }
 
 .members-info {
@@ -195,13 +195,14 @@ figcaption {
 	justify-content: space-between;
 	align-items: center;
 	margin: 50px 250px;
-	padding: 50px 150px;
+	padding: 50px 100px;
 	background-color: hsl(271, 45%, 39%);
 	border-radius: 10px;
 }
 
 .cta-info {
 	color: hsl(90, 17%, 98%);
+	font-size: 18px;
 }
 
 .cta-botao {
@@ -209,7 +210,7 @@ figcaption {
 	border: solid hsl(90, 17%, 98%);
 	color: hsl(90, 17%, 98%);
 	font-size: 20px;
-	padding: 8px 16px;
+	padding: 6px 12px;
 	border-radius: 10px;
 }
 
